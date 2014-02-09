@@ -1,0 +1,8 @@
+#! /bin/bash
+# File: Makefile
+
+myprog: hello.o
+	gcc hello.o -o myprog
+
+hello.o: hello.c
+	gcc -c hello.c
