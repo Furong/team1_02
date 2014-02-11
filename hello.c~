@@ -5,7 +5,7 @@ int main() {
   printf("This is Matt.\n");
 
   //Turn comment with your name to ACTIVE to show you edited the file.
-  printf("This is Anna.\n");
-  printf("This is Furong.\n");
+  //  printf("This is Anna.\n");
+  //printf("This is Furong.\n");
   return 0;
 }

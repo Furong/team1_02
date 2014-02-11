@@ -1,0 +1,25 @@
+mweser:lab2git$ gcc -g hello.c
+mweser:lab2git$ gdb ./a.out
+GNU gdb (Ubuntu/Linaro 7.4-2012.04-0ubuntu2.1) 7.4-2012.04
+Copyright (C) 2012 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "i686-linux-gnu".
+For bug reporting instructions, please see:
+<http://bugs.launchpad.net/gdb-linaro/>...
+Reading symbols from /home/mweser/Dropbox/CSE 220 (Programming)/CSE 220 Lab 2/Code/team1_02/team1_02/a.out...done.
+(gdb) b 4
+Breakpoint 1 at 0x80483dd: file hello.c, line 4.
+(gdb) r
+Starting program: /home/mweser/Dropbox/CSE 220 (Programming)/CSE 220 Lab 2/Code/team1_02/team1_02/a.out 
+
+Breakpoint 1, main () at hello.c:4
+4	  printf("Hello world.\n");
+(gdb) c
+Continuing.
+Hello world.
+This is Matt.
+[Inferior 1 (process 2634) exited normally]
+
