@@ -9,8 +9,8 @@ int main (int argc, const char *argv[]) {
    
    /* Missing Code Here
 	pass source_file to init_lister()
-	
 	use a while loop to go through all lines of the code being read
+	loop breaks once get_source_line() returns false
 	
 	
 	*/
@@ -22,7 +22,7 @@ FILE *init_lister(const char *name, char source_file_name[], char dte[]) {
     FILE *file;
     
     /* Missing Code Here 
-	copy the name into variable called “source_name”, open the source file parameter “source_file”, and set the date and time string.
+	copy the name into variable called “source_name”, open the source file parameter “source_file”, and set the date and time string using print_page_header()
 	 
 	 
 	 */
@@ -36,7 +36,14 @@ BOOLEAN get_source_line(FILE *src_file, char src_name[], char todays_date[]) {
     
     if (1) { //This is missing a condition
     
-		/*  Missing Code Here */
+		/*  Missing Code Here
+		 Checks to see if there is still another line in the code
+		 get_source_line(line_number) returns FALSE once EOF is reached
+		 otherwise calls print functions to read/write to file
+		 
+		 
+		 
+		 */
         return (TRUE);
     }
     else {
