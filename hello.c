@@ -6,8 +6,5 @@ int main() {
   printf("This is Anna.\n");
   printf("I'm testing editing your fork of the project.");
 
-  //Turn comment with your name to ACTIVE to show you edited the file.
-
-  //printf("This is April.\n");
   return 0;
 }
