@@ -1,8 +1,13 @@
 #! /bin/bash
 # File: Makefile
 
-myprog: hello.o
-	gcc hello.o -o myprog
+myprog: hello.o main.o print.o
+	gcc hello.o  main.o print.o -o myprog
 
 hello.o: hello.c
 	gcc -c hello.c
+main.o : main.c
+        gcc -c main.c
+print.o: print.c
+        gcc -c print.c
+        
